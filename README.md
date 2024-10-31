@@ -30,8 +30,17 @@ pip3 install \
 deactivate
 ```
 
-LEDs are set to WHITE when heater gets above 50
-It's in Python - adjust to your needs.
+3. LEDS
+   LEDs are set to WHITE when heater gets above 50
+   It's in Python - adjust to your needs.
+
+Place the scripts in ~/scripts or modify the crontab to your new path
+
+```bash
+mkdir ~/scripts
+```
+
+
 
 
 
