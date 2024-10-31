@@ -4,13 +4,21 @@ This is for a Creality Ender 3 Pro (2018) with an updated Creality 4.2.7 board a
 - stock hotend
 - stock display
 
-There is a neopixel 5v LED light strip controlled by the Raspberry Pi.
+## Flash the printer
+Put the .bin on an sd card, shut down printer, insert the sd card, turn on the printer and wait about 10 seconds.
+Take out the SD card.
 
-Light strip and Pi powered by Buck converter
-Part for Rasperry Pi: 
+
+## Raspberry Pi
+I am using a raspberry pi 3 that I had lying around
+Printed Part for Rasperry Pi: 
 https://www.thingiverse.com/thing:4586351
 
-LED Scripts
+## LED Scripts
+There is a neopixel 5v LED light strip controlled by the Raspberry Pi.
+the LED strip is from Adafruit and slides into the tbe bottom of the top of the frame.
+
+
 
 1. Use cron to start the LED scripts
 ```bash
@@ -29,6 +37,8 @@ pip3 install \
     setproctitle RPi.GPIO
 deactivate
 ```
+
+
 
 3. LEDS
    LEDs are set to WHITE when heater gets above 50
