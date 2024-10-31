@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+## Written by Nathan (nocturnal33)
+## 2024.10.10
+
 import requests
 import time
 import board
@@ -18,7 +22,7 @@ pixel_pin = board.D21
 #################
 #### PRINTER ####
 #################
-printer_ip = '10.0.0.39'
+printer_ip = ''
 RETRY_INTERVAL = 5
 
 ####################
