@@ -39,7 +39,6 @@ deactivate
 ```
 
 
-
 3. LEDS
    LEDs are set to WHITE when heater gets above 50
    It's in Python - adjust to your needs.
@@ -50,7 +49,8 @@ Place the scripts in ~/scripts or modify the crontab to your new path
 mkdir ~/scripts
 ```
 
-
+## KAMP
+I also setup KAMP for adaptive purging and bed mesh.
 
 
 
